@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <div class="form-container bg">
+        <form name="frmsignup" action="http://localhost:5000/signup" method="POST">
+            <h2 style="color: beige">Sign In</h2>
+            <input type="text" id="sign-in-username" placeholder="Username" required>
+            <div id="sign-in-username-error" class="error"></div>
+            <input type="password" id="sign-in-password" placeholder="Password" required>
+            <div id="sign-in-password-error" class="error"></div>
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+    <script src="sign in.js"></script>
+</body>
+</html>

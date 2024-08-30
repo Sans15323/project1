@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="s.css">
+
+</head>
+<style type="text/css">
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.bg{
+    background: url('E:/Students/Santhosh R/new one/static/1.jpg');
+    background-size: cover;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"], input[type="email"], input[type="password"], button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .form-container {
+        width: 90%;
+    }
+}
+
+</style>
+<body>
+    <div class="form-container bg">
+        <form name="frmsignup" action="http://localhost:5000/signup" method="POST">
+            <h2 style="color: beige;">Sign Up</h2>
+            <input type="text" id="sign-up-username" name="name" placeholder="Username" required>
+            <div id="sign-up-username-error" class="error"></div>
+            <input type="email" id="sign-up-email" name="email" placeholder="Email" required>
+            <div id="sign-up-email-error" class="error"></div>
+            <input type="password" id="sign-up-password" name="password" placeholder="Password" required>
+            <div id="sign-up-password-error" class="error"></div>
+            <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+            <div id="confirm-password-error" class="error"></div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <script src="sign up.js"></script>
+</body>
+</html>

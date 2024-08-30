@@ -1,0 +1,20 @@
+
+.bg{
+    background: linear-gradient(to top,#000002,#163805,#4c8e06);
+}
+.checked{
+    color: rgb(245, 222, 17);
+}
+.boder{
+    border:10px;
+    border-color: #000002;
+    
+}
+.pd{
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+.crd{
+ width:50%; padding:20px
+}

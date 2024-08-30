@@ -1,0 +1,109 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ 
+.bg{
+    background-color: rgb(183, 249, 85);
+}
+.bg1{
+    background-color:rgb(52, 122, 14) ;
+}
+
+    
+.navbar{
+    background-color:rgb(246, 246, 246);
+    padding:10rem;
+   
+    top: 0;
+    left:0;
+    z-index: 9999;
+    padding: 5rem 5rem;
+    box-shadow: 5px 5px 20px rgb(0,0,0,0.5);
+    
+}
+.fa-regular{
+    width: fit-content;
+    width:100%;
+}
+.logo{
+   
+   width: fit-content;
+}
+#navbar {
+    position: fixed;
+    width: 100%;
+    
+}
+.navbar .navbar-brand {
+    font-size:25px;
+    font-weight: 800;
+    color: green;
+}
+
+#navbarSupportedContent a{
+    color: rgb(5, 40, 5);
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding: auto;
+   
+    transition: 2s;
+}
+#navbarSupportedContent a:hover{
+    border-top: 2px solid rgb(104, 247, 8);
+    border-bottom: 2px solid rgb(104, 248, 8);
+
+
+}
+#navbarSupportedContent button{
+        background:rgb(182, 238, 15) ;
+        width:10rem;
+        border-radius: 10px;
+}
+section{
+         width: 100%;
+         min-height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+}
+ #home{
+    background:linear-gradient(rgba(16, 15, 15, 0.1) ,rgba(0,0,0,0.4)) ,url(./pic/home1.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+
+    }
+#home h1{
+     font-size: 100px;
+     color: azure;
+     letter-spacing: 2px;
+     font-family:Viner Hand ITC;
+}    
+#home p,h2 {
+    font-size: 25px;
+    color: white;
+}
+#home .btn{
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+/* linkplants */
+#linkplants {
+    background:linear-gradient(rgba(216, 10, 10, 0.1) ,rgba(0,0,0,0.4)) ,url(./pic/linkplant.jpeg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+
+    }
+.font{
+    font-family: 'Gill Sans';
+   
+}    
